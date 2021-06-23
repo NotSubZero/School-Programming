@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Team Project</title>
+    <link rel="stylesheet" href="Favorite Team.css">
+</head>
+<body>
+    
+    <button class="light" onclick=changeCSS("light.css")>Light Mode</button>
+    <button class="dark" onclick=changeCSS("dark.css")>Dark Mode</button>
+    <script>
+            function changeCSS(cssFile) {
+            
+                var oldlink = document.getElementsByTagName("link").item(0);
+            
+                var newlink = document.createElement("link");
+                newlink.setAttribute("rel", "stylesheet");
+                newlink.setAttribute("type", "text/css");
+                newlink.setAttribute("href", cssFile);
+            
+                document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+            }
+    </script>
+
+
+
+
+    <h1>Boston Celtics</h1>
+    <h2>History</h2>
+    <hr>
+    <p>The Boston Celtics are an American professional basketball team based in Boston. The Celtics compete in the National Basketball Association as a member of the league's
+        Eastern Conference Atlantic Division.</p>
+
+    <h2>Rivals</h2>
+    <hr>
+        <ul>
+            <li>Los Angeles Lakers</li> 
+            <li>Miami Heat</li>
+            <li>Chicago Bulls</li>
+        </ul>
+    <h2>NBA Finals (Last 5 recent, 17 total)</h2>
+    <hr>
+        <ul>
+            <li>1976</li>
+            <li>1981</li>
+            <li>1984</li>
+            <li>1986</li>
+            <li>2008</li>
+        </ul> 
+
+    <h2>Personnel</h2>
+    <hr>
+        <table class="table1"> 
+            <tbody>
+                <tr class="tr1">
+                    <th scope="row">Owner:</th>
+                    <td>Wycliffe "Wyc" Grousbeck</td>
+                <tr>
+                    <th scope="row">General Manager:</th>
+                    <td>Danny Ainge</td>
+                </tr>
+                <tr class="tr1">
+                    <th scope="row">Head Coach:</th>
+                    <td>Brad Stevens</td>
+                </tr>
+                <tr>
+                    <th scope="row">Famous Player:</th>
+                    <td>Kyrie Irving</td>
+                </tr>
+                <tr class="tr1">
+                    <th scope="row">Court:</th>  
+                    <td>TD Garden</td>
+
+            </tbody>
+        </table>
+
+
+    <h2>Records 2020-21</h2>
+    <hr>
+        <table class="table2">
+            <thead>
+                <tr class="tr1">
+                    <th>Category</th>
+                    <th>Player</th>
+                    <th>Number</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Points</td>
+                    <td>Jayson Tatum</td>
+                    <td>25.1</td>
+                </tr>
+                <tr class="tr1">
+                    <td>Rebounds</td>
+                    <td>Tristan Thompson</td>
+                    <td>8.4</td>
+                </tr>
+                <tr>
+                    <td>Assists</td>
+                    <td>Jayson Tatum</td>
+                    <td>4.5</td>
+                </tr>
+                <tr class="tr1">
+                    <td>Steals</td>
+                    <td>Jayson Tatum</td>
+                    <td>1.3</td>
+                </tr>
+                <tr>
+                    <td>Blocks</td>
+                    <td>Robert Williams</td>
+                    <td>1.6</td>
+                </tr>
+            </tbody>
+        </table>
+
+    
+    <h2>Last 10 Years</h2>
+    <hr>
+        <table>
+            <thead>
+                <tr class="tr1">
+                    <th>Year</th>
+                    <th>Games</th>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2020</td>
+                    <td>38</td>
+                    <td>20</td>
+                    <td>18</td>
+                    
+                </tr>
+                <tr class="tr1">
+                    <td>2019</td>
+                    <td>72</td>
+                    <td>48</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>82</td>
+                    <td>49</td>
+                    <td>33</td>
+                </tr>
+                <tr class="tr1">
+                    <td>2017</td>
+                    <td>82</td>
+                    <td>55</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>82</td>
+                    <td>53</td>
+                    <td>29</td>
+                </tr>
+
+                <tr class="tr1">
+                    <td>2015</td>
+                    <td>82</td>
+                    <td>48</td>
+                    <td>34</td>
+                </tr>
+
+                <tr>
+                    <td>2014</td>
+                    <td>82</td>
+                    <td>40</td>
+                    <td>42</td>
+                </tr>
+                <tr class="tr1">
+                    <td>2013</td>
+                    <td>82</td>
+                    <td>25</td>
+                    <td>57</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>81</td>
+                    <td>41</td>
+                    <td>40</td>
+                </tr>
+                <tr class="tr1">
+                    <td>2011</td>
+                    <td>66</td>
+                    <td>39</td>
+                    <td>27</td>
+                </tr>
+            </tbody>
+        </table>
+
+</body>
+</html>

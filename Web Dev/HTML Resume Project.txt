@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Resume</title>
+</head>
+<body>
+ 
+  <h1>Shan Alman</h1>
+  <p>9to5isunethical@email.com</p>
+  <hr> 
+    
+    <h3>Career Objective</h3>
+  <p>To gain experience and develop career as a quantum physicist.</p>
+  <hr>
+    <h3>Skills</h3>
+  <ul>
+  <li> Advanced Knowledge of Classical & Quantum Mechanics
+   <li> Effective Proofs and theory-constructing skills.
+     <li> Full understanding of Heisenberg's Uncertainty Principle.
+  </ul>
+    <hr>
+  
+    <h3>Professional Experience</h3>
+  <strong>Aperture Science, Osaka, Japan </strong>
+  <em>Amateur Researcher, April 2031 - Present</em>
+  <ul> 
+    <li> Research on sustainable resources for automated scientific research
+      <li> Ethical Understanding on research parameters
+        <li> Lead research in cryogenics
+  </ul>
+    <hr>
+      
+    <h3>Education</h3>
+  <strong>MIT, Cambridge, MA</strong>
+  <em>Master's degree in Biochemistry, May, 2030</em>
+  <ul>
+    <li> Weighted GPA: 5.0
+      <li> Research on biopharmaceuticals
+        <li> Track Athlete
+          <li> Intership at Aperture Science
+  </ul>
+    <hr>
+      
+    <h3>Awards and Honors</h3>
+  <ul>
+    <li> Platinum Honors Society
+      <li> NASA Engineering Award
+        <li> MIT Top 10 Students
+  </ul>
+    
+</body>
+</html>

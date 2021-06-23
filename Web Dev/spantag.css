@@ -1,0 +1,35 @@
+p
+{
+    color: white;
+    background-color:rgb(146, 44, 197);
+    font-weight:900;
+    font-family: Arial;
+}
+
+.yBG
+{
+    color: rgb(146, 44, 197);
+    background-color: rgb(245, 245, 12);
+    
+}
+
+.gBG
+{
+    color: rgb(245, 245, 12);
+    background-color: rgb(19, 180, 19);
+    font-family: courier;
+}
+
+.bBG
+{
+    color:rgb(255, 14, 255);
+    background-color:rgb(8, 8, 235);
+    font-family: Times New Roman;
+}
+
+.blBG
+{
+    color:white;
+    background-color: black;
+    font-family: comic sans ms;
+}

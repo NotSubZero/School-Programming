@@ -1,0 +1,80 @@
+body
+{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+header
+{
+    color: white;
+    background: rgb(45, 45, 90);
+
+}
+h1
+{
+    width: 620px;
+    font-size: 36px;
+    margin: 0 auto;
+    padding: 40px
+}
+h2
+{
+    color: rgb(255, 94, 0);
+    font-size: 24px;
+}
+
+section
+{
+    width: 620px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a
+{
+    color: rgb(255, 94, 0);
+}
+
+a:hover
+{
+    color: rgb(255, 217, 0);
+}
+
+
+
+footer
+{
+    color: white;
+    background: rgb(45, 45, 90);
+    margin: 0 auto;
+}
+
+.b1
+{
+    margin-top: 15px;
+    padding: 15px 30px;
+    border: 0;
+    background: rgb(255, 94, 0);
+    color: white;
+}
+.b2
+{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 15px 30px;
+    border: 0;
+    background: white;
+    color: black;
+}
+
+.b1:hover
+{
+    background: rgb(114, 61, 0); 
+}
+
+.b2:hover
+{
+    background: rgb(109, 104, 104);
+}

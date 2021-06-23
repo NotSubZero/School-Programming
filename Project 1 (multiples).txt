@@ -1,0 +1,4 @@
+print("This program prints out the squares of numbers between 1 and 100 that are multiples of 5.")
+for mult in range(0, 101, 5):
+  mult=mult**2
+  print(mult)

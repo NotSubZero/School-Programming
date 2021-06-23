@@ -1,0 +1,32 @@
+def printVerse(animal, sound):
+  print("Old MacDonald had a farm, E-I-E-I-O"
+
+  "\nAnd on that farm he had a " + animal + ", E-I-E-I-O"
+
+  "\nWith a " + sound  + " " + sound + " here and a " + sound + " " + sound + " there"
+
+  "\nHere a " + sound + ", there a " + sound + ", everywhere a " + sound + " " + sound + "\nOld MacDonald had a farm, E-I-E-I-O")
+
+
+def main():
+  num = 1
+  for line in range(0, 5):
+    if (num == 1):
+      animal = "duck"
+      sound = "quack"
+    elif (num == 2):
+      animal = "pig"
+      sound = "oink"
+    elif (num == 3):
+      animal = "lion"
+      sound = "roar"
+    elif (num == 4):
+      animal = "cat"
+      sound = "meow"
+    else:
+      animal = "dog"
+      sound = "woof"
+    print(printVerse(animal, sound))
+    num = num + 1
+
+main()

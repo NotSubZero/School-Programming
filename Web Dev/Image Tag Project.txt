@@ -1,0 +1,39 @@
+
+
+Paper View
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<img src="https://animalcorner.org/wp-content/uploads/2020/05/simon-rae-jY_2XG-6HU0-unsplash-1024x682.jpg"
+     alt="Hazel Siberian Husky w/ Blue Eyes on Snow"
+     title="Picture took in Russia"
+     height="400"
+     >
+<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/01-chiron-pur-sport-3i4-front-1583253927.jpg?crop=0.706xw:0.628xh;0.151xw,0.193xh&resize=768:*"
+     alt="2021 Bugatti Chiron"
+     title="$3.35 million"
+     height="400"
+     >
+<img src="https://static.billboard.com/files/media/Marshmello-2016-Bellnjerry-billboard-1548-650-2-compressed.jpg"
+     alt="Marshmello w/ Mask on"
+     title="Philadelphia, PA"
+     height="400"
+     >
+<img src="https://static.onecms.io/wp-content/uploads/sites/28/2017/02/eiffel-tower-paris-france-EIFFEL0217.jpg"
+     alt="Eiffel Tower at Sunrise"
+     title="Picture took at 6:11 AM"
+     height="400"
+     >
+<img src="https://cdn.images.express.co.uk/img/dynamic/151/590x/planet-9-1184423.webp?r=1569840062922"
+     alt="Hypothetical 9th Planet (Planet X) at the outer regions of the Solar System"
+     title="Never directly observed and unsure of it's existence, scientists speculate it may or may not be a tiny black hole."
+     height="400"
+     >
+
+</body>
+</html>

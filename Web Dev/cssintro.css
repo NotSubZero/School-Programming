@@ -1,0 +1,24 @@
+h1
+{
+    font-family: courier;
+    color: white;
+    background; background-color: black;
+}
+p
+{
+    color: red;
+    font-family: helvetica; 
+    font-size: 48px;
+    background; background-color: pink;
+
+}
+
+ul
+{
+    color:rgb(25, 248, 4);
+    background; background-color: yellow;
+    border: solid;
+    border; border-color: blue;
+    border; border-width: 2px;   
+    
+}

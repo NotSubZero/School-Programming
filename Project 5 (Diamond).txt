@@ -1,0 +1,16 @@
+print("This program displays a diamond made up of asterisks.")
+numAsterisks = int(input("How many asterisks should the biggest row have? "))
+numberAsterisksPerRow = 1
+numberSpacesPerRow = numAsterisks - 1
+for value in range(1, numAsterisks + 1, + 1):
+  print(" " * numberSpacesPerRow, "* " * numberAsterisksPerRow)
+  numberAsterisksPerRow = numberAsterisksPerRow + 1
+  numberSpacesPerRow = numberSpacesPerRow - 1
+
+
+numberAsterisksPerRowNew = numAsterisks - 1
+numberSpacesPerRowNew = 1
+for valueTwo in range(numAsterisks - 1, 0, - 1):
+  print(" " * numberSpacesPerRowNew, "* " * numberAsterisksPerRowNew)
+  numberAsterisksPerRowNew = numberAsterisksPerRowNew - 1
+  numberSpacesPerRowNew = numberSpacesPerRowNew + 1 

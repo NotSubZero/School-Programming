@@ -1,0 +1,15 @@
+def generateUsername(firstName, lastName, yearOfGraduation):
+  username = lastName + firstName[0:3] + yearOfGraduation[2:4]
+  username = username.lower()
+  return username
+ 
+
+def main():
+  print("This program generates a username based on your first name, last name, and graduation year.")
+  firstName = input("Enter your first name: ")
+  lastName = input("Enter your last name: ")
+  yearOfGraduation = input("Enter your graduation year: ")
+  username = generateUsername(firstName, lastName, yearOfGraduation)
+  print("Your username is " + username)
+
+main()

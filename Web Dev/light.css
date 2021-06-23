@@ -1,0 +1,88 @@
+
+body
+{
+    background: rgb(255, 255, 255) no-repeat fixed;
+    background-size: 80%;
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/05/Boston-Celtics-Logo-1976-1996.png");
+
+}
+
+h1
+{
+    text-transform: uppercase; 
+    color: rgb(30, 155, 30);
+    font-family:verdana;
+ 
+}
+
+h2
+{
+
+    text-transform: uppercase;
+    color: rgb(30, 155, 30);
+    font-family:verdana;
+}
+
+ul
+{
+    list-style:square;
+}
+
+table
+{
+    width:500px;
+    text-align: center;
+}
+
+tr:hover
+{
+    background-color: rgb(245, 88, 148);
+}
+
+tr
+{
+    
+}
+.tr1
+{
+    background: rgb(47, 148, 101); 
+
+
+}
+
+th
+{
+    
+    border-top: solid 3px rgb(0, 255, 200);
+    border-bottom: solid 3px rgb(255, 0, 170);
+}
+
+.light
+{
+    color: black
+    background: white;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.light:hover
+{
+    background: rgb(0, 255, 128)
+}
+
+.dark
+{
+    color: white;
+    background: black;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.dark:hover
+{
+    background:rgb(255, 0, 119)
+}

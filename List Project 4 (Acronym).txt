@@ -1,0 +1,17 @@
+def generateAcronym(phrase):
+  phrase = phrase.split()
+  acronym = ""
+
+  for el in phrase:
+    acronym += el[0]
+  acronym = acronym.upper()
+  return acronym
+
+
+def main():
+  print("This program generates the acronym for a phrase.")
+  phrase = input("Please enter a phrase: ")
+  acronym = generateAcronym(phrase)
+  print(acronym)
+
+main()

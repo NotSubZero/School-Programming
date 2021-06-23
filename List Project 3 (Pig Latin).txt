@@ -1,0 +1,19 @@
+def translateWord(word):
+  word = word[1:] + word[0] + "ay"
+  return word
+
+def translateMessage(message):
+  message = message.split()
+  translatedMessage = ""
+  for word in message:
+    word = translateWord(word)
+    translatedMessage = translatedMessage + " " + word
+  return translatedMessage
+  
+
+def main():
+  message = input("Enter a sentence to translate to Pig Latin: ")
+  translatedMessage = translateMessage(message)
+  print(translatedMessage)
+
+main()

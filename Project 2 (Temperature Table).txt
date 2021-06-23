@@ -1,0 +1,8 @@
+print("This program generates a table of integer Celsius temperatures and their Fahrenheit equivalents.")
+lowestC = (int(input("Please enter the lowest temperature you want to include in the table: ")))
+highestC = (int(input("Please enter the highest temperature you want to include in the table: ")))
+
+for C in range(lowestC, highestC + 1):
+  F = (C * 9/5)+32
+  F = round(F, 1)
+  print(str(C) + "\t" + str(F))

@@ -1,0 +1,8 @@
+valueNum = int(input("n = "))
+total = 0
+place = 1
+for num in range(1, valueNum + 1):
+  sign = 2 * (num % 2) - 1
+  total += sign * 4 / place
+  place += 2
+print("approximation = " + str(total))

@@ -1,0 +1,18 @@
+def updateEstimate(estimate, value):
+  estimate = (estimate + (value/estimate)) / 2
+  return estimate 
+
+def main(): 
+  print("This program will estimate the square root of a value by using Newton's Method.")
+
+  value = float(input("Enter the value you want to find the square root of: "))
+  numRepetitions = int(input("How many times do you want to improve the estimate? "))
+  estimate = (value/2)
+
+  for est in range(0, numRepetitions):
+    updateEstimate(estimate, value)
+    estimate = updateEstimate(estimate, value)
+
+  print("The estimate of the square root is " + str(estimate))
+
+main()

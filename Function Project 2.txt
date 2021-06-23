@@ -1,0 +1,33 @@
+def printVerse(num, action):
+  print("The ants go marching " + num + ", hurrah, hurrah" +
+"\nThe ants go marching " + num + ", hurrah, hurrah"
+"\nThe ants go marching " + num + ","
+"\nThe little one stops to " +  action + 
+"\nAnd they all go marching down to the ground"
+"\nTo get out of the rain, BOOM! BOOM! BOOM!\n")
+
+def main(): 
+  value = 1
+  for line in range(0, 5):
+    if value == 1:
+      num = "one by one"
+      action = "suck her thumb"
+    elif value == 2:
+      num = "two by two"
+      action = "tie her shoe"
+    elif value == 3:
+      num = "three by three"
+      action = "climb a tree"
+    elif value == 4:
+      num = "four by four"
+      action = "shut the door"
+    else:
+      num = "five by five"
+      action = "take a dive"
+    printVerse(num, action)
+    value = value + 1 
+
+main()
+
+    
+

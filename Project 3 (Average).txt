@@ -1,0 +1,9 @@
+print("This program calculates the average of a set of numbers.")
+numTotal = 0
+ammountNumbers = int(input("How many numbers do you have? "))
+
+for num in range(0, ammountNumbers):
+  number = float(input("Enter a number: "))
+  numTotal = numTotal + number
+numTotal = numTotal/ammountNumbers
+print("The average is " + str(numTotal))

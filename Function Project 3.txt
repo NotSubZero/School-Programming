@@ -1,0 +1,27 @@
+import math
+
+def calcAreaCirc(radius):
+  circArea = math.pi * (radius ** 2)
+  return circArea
+
+def calcCostPerSqIn(circArea, centAmount):
+  CostPerSqIn = centAmount / circArea
+  return CostPerSqIn
+
+def convDolToCent(dollarAmount):
+  centAmount = dollarAmount * 100
+  return centAmount
+
+def main():
+  diameter = int(input("Enter the diameter of the pizza (in inches): "))
+  dollarAmount = float(input("Enter the cost of the pizza (in dollars): "))
+  radius = diameter / 2
+  
+  circArea = calcAreaCirc(radius)
+  centAmount = convDolToCent(dollarAmount)
+  CostPerSqIn = calcCostPerSqIn(circArea, centAmount)
+  CostPerSqIn = round(CostPerSqIn, 1)
+
+  print("Your pizza costs " + str(CostPerSqIn) + " cents per square inch.")
+
+main()

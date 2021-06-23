@@ -1,0 +1,7 @@
+print("Factorial is a function in math that takes a positive integer and multiplies it by all the the positive integers less than it.  It is denoted by using the ! symbol.")
+
+factorial = int(input("What is the number that you want the factorial of? "))
+
+for num in range(1, factorial, + 1):
+  factorial = factorial * num
+print(factorial)

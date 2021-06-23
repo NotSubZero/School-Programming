@@ -1,0 +1,16 @@
+def reverseSentence(sentence):
+  newSentence = ''
+  rollingNum = 0
+  for char in sentence:
+    rollingNum += -1
+    newSentence += sentence[rollingNum]
+    
+  return newSentence
+
+def main():
+  print("This program reverses a sentence.")
+  sentence = input("Please enter a sentence: ")
+  newSentence = reverseSentence(sentence)
+  print(newSentence)
+
+main()

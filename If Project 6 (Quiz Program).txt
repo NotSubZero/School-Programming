@@ -1,0 +1,36 @@
+print("Welcome to the Math Quiz!")
+score = 0
+q1 = input("What is 600 + 1235? ")
+q1 = int(q1)
+if q1 == 1835:
+  score += 1 
+  print("Correct!")
+else: 
+  print("Wrong! The correct answer is 1835.")
+
+q2 = input("What is 18 x 59? ")
+q2 = int(q2)
+if q2 == 1062:
+  score += 1 
+  print("Correct!")
+else: 
+  print("Wrong! The correct answer is 1062.")
+
+
+q3 = input("What is 1000/10? ")
+q3 = int(q3)
+if q3 == 100:
+  score += 1 
+  print("Correct!")
+else: 
+  print("Wrong! The correct answer is 100.")
+
+q4 = input("What is the square root of 16? ")
+q4 = int(q4)
+if q4 == 4:
+  score += 1 
+  print("Correct!")
+else: 
+  print("Wrong! The correct answer is 4.")
+
+print("Your score: " + str(score))

@@ -1,0 +1,20 @@
+import random as rm
+
+def printRandomPhoneNumber():
+  firstDig = str(rm.randint(1,7))
+  secondDig = str(rm.randint(4, 9))
+  thirdDig = str(rm.randint(3, 8))
+  fourthDig = str(5)
+  fifthDig = str(5)
+  sixthDig = str(5)
+  seventhDig = str(rm.randint(1, 9))
+  eighthDig = str(rm.randint(4, 6))
+  ninthDig = str(rm.randint(0, 9))
+  tenthDig = str(rm.randint(0, 9))
+  print(firstDig + secondDig + thirdDig + "-" + fourthDig + fifthDig + sixthDig + "-" + seventhDig + eighthDig + ninthDig + tenthDig)
+def main():
+  print("This program generates five random phone numbers.")
+  for i in range(0, 5):
+    printRandomPhoneNumber()
+
+main()

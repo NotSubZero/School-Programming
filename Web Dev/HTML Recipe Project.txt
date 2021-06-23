@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <h1>Lemon Butter Salmon</h1>
+  <img src="https://www.eatwell101.com/wp-content/uploads/2020/03/Blackened-Salmon-with-Lemon-Butter-Sauce-6.jpg"
+    height="400"  
+    alt="Cooked Salmon with seasoning on top of a pan. Placed with lemon slices on the bottom."
+    title="Not as good as what the following recipe would taste like."
+       >
+  <h3>Equipment</h3>
+  <ul>
+    <li> Flat Spatula
+    <li> Large Pan
+    <li> Plates
+  </ul>
+  <h3>Ingredients</h3>
+  <ul>
+    <li> 2, 8 oz Salmon fillets (16 oz Total)
+    <li> 2 Tbsp Butter
+    <li> 1/2 Tbsp Minced Garlic
+    <li> 2 Tsp of Salt
+    <li> 2 Tsp Black Pepper
+    <li> 2 Tbsp Fresh Parsley
+    <li> 1 Tbsp Basil
+    <li> 1/2 Cup Sweet Bell Peppers
+    <li> 1/4 Cup Lemon Juice
+  </ul>
+  <h3>Directions</h3>
+  <ol>
+    <li> Take Salmon Fillets in a bowl or plate and season with salt and pepper.
+    <li> Place the room temperature (solid) butter in the pan.
+    <li> After mixing around the butter for a few minutes, it will turn brown, at that point, place the minced 
+      garlic in the middle of the pan and don't mix it for about half a minute.  
+    <li> Now mix the garlic butter, you are free to place the fillets and parsley on the pan. 
+      All of the remaining vegetables should be on the pan as well. 
+    <li> After about 5 minutes, you can flip. Once the Salmon reaches a flaky consistency, you will know
+      that it's done. 
+    <li> Before taking it off the pan, pour the lemon juice on the Salmon and keep it on the pan for a minute.
+    <li> All done!
+  </ol>
+  <img src="http://pointedkitchen.com/wp-content/uploads/2019/02/chorizo-salmon.jpg"
+       height="400"
+       alt="Salmon with vegetables on plate"
+       title="Corizo Salmon from Weight Watchers made in 15 minutes"
+       >
+</body>
+</html>

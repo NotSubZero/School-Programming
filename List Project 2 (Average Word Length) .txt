@@ -1,0 +1,22 @@
+def countWords(message):
+  numWord = len(message.split())
+  return numWord
+
+def countNonSpaceCharacters(message):
+  message = message.split()
+  nonSpace = 0
+  for word in message:
+    nonSpace += len(word)
+  return nonSpace
+
+
+
+def main():
+  print("This program computes the average word length of a message.")
+  message = input("Enter a message: ")
+  numWord = countWords(message)
+  nonSpace = countNonSpaceCharacters(message)
+  average = nonSpace/numWord
+  print("The average word length of your message is " + str(average))
+
+main()

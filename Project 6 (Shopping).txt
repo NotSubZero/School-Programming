@@ -1,0 +1,12 @@
+print("This program calculates the total cost of various products you are buying.")
+numProducts = int(input("How many different products are you purchasing? "))
+
+totalCost = 0
+
+for num in range(0, numProducts):
+  cost = float(input("Enter the cost of the product: "))
+  quantity = int(input("Enter the quantity of the product: "))
+  newCost = cost * quantity
+  totalCost = totalCost + newCost
+  print("That adds $" + str(newCost) + " to your bill. Your total cost so far is $" + str(totalCost) + ".")
+print("Your final total cost is $" + str(totalCost) + ".")
